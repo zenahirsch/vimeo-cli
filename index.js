@@ -48,12 +48,12 @@ program
     });
 
 program
-    .command('upload')
+    .command('upload <path>')
     .description('Upload a video or directory of videos.')
-    .option('-f, --file <path>', 'Path to the specified file')
-    .option('-d, --directory <path>', 'Path to the specified directory')
-    .action(function (options) {
-        lib.getScript('upload')(options);
+    .option('-f, --file', 'Path to the specified file')
+    .option('-d, --directory', 'Path to the specified directory')
+    .action(function (path) {
+        lib.getScript('upload')(path);
     });
 
 program.parse(process.argv);

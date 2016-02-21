@@ -15,7 +15,8 @@ module.exports = {
         nconf.defaults({
             client_id: client_conf.client_id,
             client_secret: client_conf.client_secret,
-            users: []
+            users: [],
+            current_user: null
         });
 
         return this;
