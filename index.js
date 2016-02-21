@@ -6,7 +6,7 @@ var lib = require(__dirname + '/lib');
 
 program
     .version(pkg.version)
-    .description('A command line interface for Vimeo.');
+    .description(pkg.description);
 
 program
     .command('setup <client_id> <client_secret>')
@@ -45,7 +45,7 @@ program
         if (nickname) {
             lib.getScript('remove')(nickname);
         }
-    })
+    });
 
 program
     .command('upload')
