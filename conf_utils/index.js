@@ -1,6 +1,6 @@
-var fs = require('fs');
-var nconf = require('nconf');
-var client_conf = require(__dirname + '/../client_conf.json');
+const fs = require('fs');
+const nconf = require('nconf');
+const client_conf = require(__dirname + '/../client_conf.json');
 
 module.exports = {
     setup: function () {
@@ -22,7 +22,7 @@ module.exports = {
         return this;
     },
     save: function () {
-        nconf.save(function (err) {
+        nconf.save((err) => {
             if (err) throw err;
         });
     },
