@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "A command line interface for managing your Vimeo account.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenahirsch/vimeo-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/zenahirsch/vimeo-cli/issues",
+    "email": "hirsch.zena@gmail.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
