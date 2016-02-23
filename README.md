@@ -21,6 +21,8 @@ You're all set! Run `vimeo --help` to see available commands.
 
 ## Authenticating a new user
 
-Only do this once you've run the `setup` command. This will walk you through authenticating a Vimeo account to use with the CLI.
+Only do this once you've run the `setup` command. 
 
 `vimeo auth`
+
+This will walk you through authenticating a Vimeo account to use with the CLI.
