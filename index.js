@@ -50,4 +50,11 @@ program
         lib.getScript('upload')(path);
     });
 
+program
+    .command('list <item>')
+    .description('List the specified items (videos, albums, followers, etc.)')
+    .action((item) => {
+        lib.getScript('list')(item)
+    });
+
 program.parse(process.argv);
