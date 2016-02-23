@@ -25,6 +25,7 @@
     "vimeo": "index.js"
   },
   "dependencies": {
+    "columnify": "^1.5.4",
     "commander": "^2.9.0",
     "nconf": "^0.8.4",
     "open": "0.0.5",
