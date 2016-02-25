@@ -23,11 +23,11 @@ You're all set! Run `vimeo --help` to see available commands.
 
 #### [`auth`](#auth)
 
-Note: You need to setup the CLI before you can do this. See [Setup](#setup).
-
 Usage: `vimeo auth`
 
 This will walk you through authenticating a Vimeo account to use with the CLI. You can perform this multiple users and switch between them using `vimeo use <nickname>`.
+
+*Note: You need to setup the CLI before you can do this. See [Setup](#setup).*
 
 #### [`use`](#use)
 
