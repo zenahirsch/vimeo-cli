@@ -21,7 +21,7 @@ You're all set! Run `vimeo --help` to see available commands.
 
 ## Commands
 
-##### [`auth`](#auth)
+##### [auth](#auth)
 
 Usage: `vimeo auth`
 
@@ -29,31 +29,31 @@ This will walk you through authenticating a Vimeo account to use with the CLI. Y
 
 *Note: You need to setup the CLI before you can do this. See [Setup](#setup).*
 
-##### [`use`](#use)
+##### [use](#use)
 
 Usage: `vimeo use <nickname>`
 
 Switch between authenticated users based on the nickname you assigned each one during the authentication step. The user you select will be the user that authenticates all subsequent requests.
 
-##### [`users`](#users)
+##### [users](#users)
 
 Usage: `vimeo users`
 
 List all authenticated users and their associated nicknames.
 
-##### [`remove`](#remove)
+##### [remove](#remove)
 
 Usage: `vimeo remove <nickname>`
 
 Remove an authenticated user based on the nickname you assigned it during the authentication step.
 
-##### [`list`](#list)
+##### [list](#list)
 
 Usage: `vimeo list <item>`
 
 List all of the authenticated user's specified items. Supported items include: `videos`, `albums`, `appearances`, `channels`, `groups`, `followers`, `following`, `likes`, `portfolios`, `presets`, `watchlater`
 
-##### [`upload`](#upload)
+##### [upload](#upload)
 
 Usage: `vimeo upload <path>`
 
