@@ -70,7 +70,7 @@ List all of the authenticated user's specified items. Supported items include: `
 
 #### add
 
-Usage: `vimeo add <item>`
+Usage: `vimeo add [options] <item>`
 
 Add the given item to the current authenticated user's account. 
 
