@@ -37,7 +37,6 @@ You're all set! Run `vimeo --help` to see available commands.
 See [Setup Instructions](#setup-instructions).
 
 #### [auth](#auth)
-[add](#add)
 
 Usage: `vimeo auth`
 
