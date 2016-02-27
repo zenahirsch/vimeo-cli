@@ -120,3 +120,7 @@ File an issue.
 ## Contribute
 
 Pull requests welcome!
+
+## License
+
+MIT.
