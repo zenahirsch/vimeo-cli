@@ -26,6 +26,7 @@ You're all set! Run `vimeo --help` to see available commands.
 * [users](#users)
 * [remove](#remove)
 * [list](#list)
+* [add](#add)
 * [follow](#follow)
 * [like](#like)
 * [watchlater](#watchlater)
