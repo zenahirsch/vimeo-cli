@@ -20,7 +20,7 @@
     "upload"
   ],
   "author": "Zena Hirsch <hirsch.zena@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "vimeo": "index.js"
   },
