@@ -6,7 +6,7 @@ A command line interface for Vimeo.
 
 `npm install -g vimeo-cli`
 
-## [Setup Instructions](#setup-instructions)
+## Setup Instructions
 
 You must follow these instructions to setup the utility before running any other commands.
 
@@ -33,10 +33,10 @@ You're all set! Run `vimeo --help` to see available commands.
 
 * * * 
 
-#### [setup](#setup)
+#### setup
 See [Setup Instructions](#setup-instructions).
 
-#### [auth](#auth)
+#### auth
 
 Usage: `vimeo auth`
 
@@ -44,31 +44,31 @@ This will walk you through authenticating a Vimeo account to use with the CLI. Y
 
 *Note: You need to setup the CLI before you can do this. See [Setup](#setup).*
 
-#### [use](#use)
+#### use
 
 Usage: `vimeo use <nickname>`
 
 Switch between authenticated users based on the nickname you assigned each one during the authentication step. The user you select will be the user that authenticates all subsequent requests.
 
-#### [users](#users)
+#### users
 
 Usage: `vimeo users`
 
 List all authenticated users and their associated nicknames.
 
-#### [remove](#remove)
+#### remove
 
 Usage: `vimeo remove <nickname>`
 
 Remove an authenticated user based on the nickname you assigned it during the authentication step.
 
-#### [list](#list)
+#### list
 
 Usage: `vimeo list <item>`
 
 List all of the authenticated user's specified items. Supported items include: `videos`, `albums`, `appearances`, `channels`, `groups`, `followers`, `following`, `likes`, `portfolios`, `presets`, `watchlater`
 
-#### [add](#add)
+#### add
 
 Usage: `vimeo add <item>`
 
@@ -88,25 +88,25 @@ Options | Use | Applies to Item | Required?
 -u | Specify user ID | `following` | yes
 -v | Specify video ID | `like` `watchlater` | yes
 
-#### [follow](#follow)
+#### follow
 
 Usage: `vimeo follow <user_id>`
 
 Follow the specified user. (Alias for `vimeo add following -u <user_id>`)
 
-#### [like](#like)
+#### like
 
 Usage: `vimeo like <video_id>`
 
 Like the specified video. (Alias for `vimeo add like -v <video_id>`)
 
-#### [watchlater](#watchlater)
+#### watchlater
 
 Usage: `vimeo watchlater <video_id>`
 
 Add the specified video to the watch later queue. (Alias for `vimeo add watchlater -v <video_id>`)
 
-#### [upload](#upload)
+#### upload
 
 Usage: `vimeo upload <path>`
 
