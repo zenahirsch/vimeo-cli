@@ -46,8 +46,9 @@ program
 program
     .command('upload <path>')
     .description('Upload a video.')
-    .action((path) => {
-        lib.getScript('upload')(path);
+    .option('-o, --open', 'Open video page after uploading')
+    .action((path, options) => {
+        lib.getScript('upload')(path, options);
     });
 
 program
